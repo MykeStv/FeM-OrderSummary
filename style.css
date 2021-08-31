@@ -1,0 +1,89 @@
+/*Practicando con FrontEnd Mentor challenges
+Maycol Steven Rincon */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  max-height: 100vh;
+  color: hsl(223, 47%, 23%);
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.card {
+  width: 320px;
+  height: 500px;
+  background: #ffffff;
+  display: inline-block;
+  border-radius: 15px;
+}
+.card img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.order {
+  padding: 30px;
+  display: inline-block;
+  text-align: center;
+  justify-content: space-between;
+}
+.order h1 {
+  font-weight: 900;
+}
+.order p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+.plan {
+  background: hsl(225, 100%, 98%);
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: relative;
+  top: 10px;
+}
+.plan img {
+  height: 35px;
+  width: 35px;
+}
+.pay {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  border: none;
+  border-radius: 7px;
+  position: relative;
+  top: 30px;
+  padding: 11px 65.5px;
+  cursor: pointer;
+  box-shadow: 0 10px 12px -3px hsl(224, 23%, 55%);
+  font-weight: 700;
+}
+.cancel {
+  position: relative;
+  top: 50px;
+  border: none;
+  background-color: inherit;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  cursor: pointer;
+}
+.pay:hover {
+  background-color: hsl(245, 75%, 52%, 65%);
+}
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
